@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_bar"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/add_new_session_button"
+        android:title="@string/new_session"
+        android:icon="@drawable/ic_add_box"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/my_sessions_button"
+        android:title="@string/my_sessions"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/log_out_button"
+        android:title="@string/log_out"
+        app:showAsAction="never"
+        />
+
+</menu>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nameOfPoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingStart="8dp"
+            android:textSize="20sp"
+            android:text="@string/placeholder_name"/>
+
+        <TextView
+            android:id="@+id/titleOfPoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameOfPoster"
+            android:paddingTop="0dp"
+            android:paddingLeft="12dp"
+            android:textColor="#5A5A5A"
+            android:text="@string/placeholder_title"
+            />
+
+        <TextView
+            android:id="@+id/sessionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleOfPoster"
+            android:paddingTop="8dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="@string/placeholder_session_title"/>
+
+        <TextView
+            android:id="@+id/sessionGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sessionTitle"
+            android:paddingTop="0dp"
+            android:paddingBottom="8dp"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:text="@string/placeholder_session_gender"/>
+
+        <ImageView
+            android:id="@+id/sessionImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sessionGender"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/sessionDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sessionImage"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:text="@string/placeholder_description"/>
+
+        <TextView
+            android:id="@+id/sessionPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:text="@string/placeholder_session_price"
+            android:layout_below="@id/sessionDescription"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sessionPrice"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/modify_session"
+                />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/delete"
+                />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

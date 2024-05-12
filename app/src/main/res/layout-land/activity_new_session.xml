@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".NewSessionActivity">
+
+        <TextView
+            android:id="@+id/newSessionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="60dp"
+            android:text="@string/new_session"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/sessionTitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newSessionTextView"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:ems="10"
+            android:hint="@string/session_title"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+
+        <EditText
+            android:id="@+id/sessionDescriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sessionTitleEditText"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:ems="10"
+            android:maxLines="5"
+            android:hint="@string/session_description"
+            android:inputType="textMultiLine"
+            android:textAlignment="center" />
+
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sessionDescriptionEditText"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="@dimen/default_margin"
+            >
+
+            <RadioButton
+                android:id="@+id/genderMaleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/only_for_men" />
+
+
+            <RadioButton
+                android:id="@+id/genderFemaleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/only_for_women" />
+
+            <RadioButton
+                android:id="@+id/genderOtherRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/for_everyone" />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/sessionPriceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/genderRadioGroup"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:ems="10"
+            android:hint="@string/session_price"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sessionPriceEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_margin"
+            android:onClick="createNewSession"
+            android:text="@string/create_new_session" />
+
+    </RelativeLayout>
+</ScrollView>

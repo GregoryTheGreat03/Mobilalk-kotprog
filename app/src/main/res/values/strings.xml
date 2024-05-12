@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Meditáció és Jóga</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="email">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégsem</string>
+    <string name="title_activity_user_modify">UserModifyActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_user_update">UserUpdateActivity</string>
+    <string name="log_in_as_guest">Bejelentkezés Vendégként</string>
+    <string name="new_session">Új alkalom létrehozása</string>
+    <string name="session_title">Az alkalom címe</string>
+    <string name="session_description">Az alkalom leírása</string>
+    <string name="only_for_men">Csak férfiak számára</string>
+    <string name="only_for_women">Csak nők számára</string>
+    <string name="for_everyone">Mindenki számára</string>
+    <string name="session_price">Az alkalom ára</string>
+    <string name="create_new_session">Új alkalom meghirdetése</string>
+    <string name="modify_session">Alkalom módosítása</string>
+    <string name="placeholder_name">Placeholder Name</string>
+    <string name="placeholder_title">Placeholder Title</string>
+    <string name="placeholder_session_title">Session Title</string>
+    <string name="placeholder_session_gender">Session Gender</string>
+    <string name="placeholder_description">Lorem ipsum dolor sit amet</string>
+    <string name="delete">Törlés</string>
+    <string name="placeholder_session_price">10 000 Ft</string>
+    <string name="sign_up_to_session">Jelentkezek az eseményre</string>
+    <string name="search">Keresés</string>
+    <string name="my_sessions">Általam létrehozott alkalmak</string>
+    <string name="log_out">Kijelentkezés</string>
+    <string-array name="titles">
+        <item>Jóga oktató</item>
+        <item>Lelki tanácsadó</item>
+        <item>Szellemi vezető</item>
+        <item>Önfejlesztő személy</item>
+        <item>Belső út vándora</item>
+    </string-array>
+</resources>

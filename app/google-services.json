@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "898884588057",
+    "project_id": "yoga-and-meditation-b6e33",
+    "storage_bucket": "yoga-and-meditation-b6e33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898884588057:android:861c33739bc045a67c5088",
+        "android_client_info": {
+          "package_name": "com.application.yogaandmeditation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898884588057-04qn5nk231kcq76rq7qj153kiu6ongq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.yogaandmeditation",
+            "certificate_hash": "de5f98d3c8de3b23d01f129126605b187a7f40d3"
+          }
+        },
+        {
+          "client_id": "898884588057-0ttsmtmbdjt380de19ojrlbtcsridavs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOtlwlBPUao3nkf8tQV3zUI7ZG1kgb80Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898884588057-0ttsmtmbdjt380de19ojrlbtcsridavs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
